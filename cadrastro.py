@@ -19,7 +19,8 @@ while True:
         print("=========================")
         print("======tela de login =====")
         print("=========================")
-    else:
+    elif (opcao == "3"):
         print("vc esta saindo do cadastro,ate mais!")
         break
-    
+    else:
+        print("valor digitado,invalidouse apenas numeros inteirosdo menu")
